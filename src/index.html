@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+   
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="game-title">
+            <h2>Scissors, Paper & Rock</h2>
+        </div>
+        <div class="game-content">
+            <div class="game-show">
+                <div class="player-1-choice">
+                    <div class="score first">score: 0</div>
+                    <img src="./img/hand.png" class="animate-1">
+                    <p>PLAYER 1</p>
+                </div>
+                <div id="message">start!</div>
+                
+                <div class="player-2-choice">
+                    <div class="score second">score: 0</div>
+                    <img src="./img/hand.png" class="animate-2">
+                    <p>PLAYER 2</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Choose:</h3>
+        <div class="game-options">
+            <div class="option scissors">
+                <img src="./img/scissors.png" data-id="scissors">
+                <span>Scissors</span>
+            </div>
+
+            <div class="option paper">
+                <img src="./img/paper.png" data-id="paper">
+                <span>Paper</span>
+            </div>
+
+            <div class="option rock">
+                <img src="./img/rock.png" data-id="rock">
+                <span>Rock</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
